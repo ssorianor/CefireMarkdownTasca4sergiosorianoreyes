@@ -1,8 +1,8 @@
-site_name: Programació Modular
+site_name: Programación Modular
 site_description: Apunts de Programació Modular - Curs 2025-2026
 site_author: Sergio Soriano Reyes
-docs_dir: 'md'
-site_dir: 'docs'
+docs_dir: md
+site_dir: docs
 
 theme:
   name: material
@@ -22,32 +22,23 @@ theme:
         name: Canvia a mode clar
   features:
     - navigation.sections
-    - navigation.top
     - navigation.tabs
-    - navigation.expand
+    - navigation.top
     - search.highlight
     - search.suggest
     - content.code.copy
     - content.code.annotate
-    - toc.integrate
 
 plugins:
-  - search:
-      lang: es
+  - search
   - print-site:
       add_to_navigation: true
-      print_page_title: 'Imprimir / Descarregar PDF'
+      print_page_title: Imprimir / Descarregar PDF
       add_print_site_banner: true
-      print_site_banner_template: "md/templates/custom_banner.html"
+      print_site_banner_template: md/templates/custom_banner.html
       add_table_of_contents: true
-      toc_title: 'Taula de continguts'
-      toc_depth: 3
-      add_full_urls: false
-      enumerate_headings: false
-      enumerate_figures: false
+      toc_title: Taula de continguts
       add_cover_page: false
-      include_css: true
-      enabled: true
 
 markdown_extensions:
   - admonition
@@ -62,15 +53,13 @@ markdown_extensions:
       line_spans: __span
       pygments_lang_class: true
   - pymdownx.inlinehilite
-  - pymdownx.snippets
   - pymdownx.tabbed:
       alternate_style: true
-  - tables
-  - attr_list
-  - md_in_html
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - tables
+  - attr_list
 
 nav:
-  - Inici: index.md
+  - Inicio: index.md
