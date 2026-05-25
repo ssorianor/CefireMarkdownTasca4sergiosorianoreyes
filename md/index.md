@@ -233,17 +233,6 @@ sequenceDiagram
     Main->>Main: Muestra resultados
 ```
 
-### Jerarquía de módulos
-
-```mermaid
-graph TD
-    M[Módulo Principal\nmain] --> A[Función\nArea]
-    M --> C[Función\nCircunferencia]
-    M --> E[Procedimiento\nMuestraResultados]
-    A --> |devuelve double| M
-    C --> |devuelve double| M
-```
-
 ---
 
 ## 6. Resumen de conceptos clave

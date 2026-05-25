@@ -1,0 +1,20 @@
+{% extends "print_page.html" %}
+
+{% block print_page_banner %}
+<div class="print-page-banner" style="text-align:center; padding: 1rem; background: var(--md-primary-fg-color); color: var(--md-primary-bg-color);">
+  <button onclick="window.print()" style="
+    background: white;
+    color: #3f51b5;
+    border: none;
+    padding: 0.6rem 1.4rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+  ">
+    🖨️ Imprimir / Guardar com a PDF
+  </button>
+</div>
+{% endblock %}
+
+{% block print_page_cover %}{% endblock %}

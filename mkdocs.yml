@@ -7,6 +7,7 @@ site_dir: 'docs'
 theme:
   name: material
   language: ca
+  custom_dir: md/overrides
   palette:
     - scheme: default
       primary: indigo
@@ -43,7 +44,7 @@ plugins:
       add_full_urls: false
       enumerate_headings: false
       enumerate_figures: false
-      add_cover_page: true
+      add_cover_page: false
       include_css: true
       enabled: true
 
