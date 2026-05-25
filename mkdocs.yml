@@ -7,7 +7,6 @@ site_dir: 'docs'
 theme:
   name: material
   language: ca
-  custom_dir: md/overrides
   palette:
     - scheme: default
       primary: indigo
@@ -38,6 +37,8 @@ plugins:
   - print-site:
       add_to_navigation: true
       print_page_title: 'Imprimir / Descarregar PDF'
+      add_print_site_banner: true
+      print_site_banner_template: "md/templates/custom_banner.html"
       add_table_of_contents: true
       toc_title: 'Taula de continguts'
       toc_depth: 3

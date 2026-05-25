@@ -89,13 +89,13 @@ La **cohesión** mide la relación interna de un módulo. Cuanto más alta, mejo
 ??? note "Tipos de cohesión (de mayor a menor calidad)"
     | Tipo | Calidad |
     |------|---------|
-    | Funcional | ⭐⭐⭐⭐⭐ Mejor |
-    | Secuencial | ⭐⭐⭐⭐ |
-    | Comunicacional | ⭐⭐⭐ |
-    | Procedural | ⭐⭐ |
-    | Temporal | ⭐⭐ |
-    | Lógica | ⭐ |
-    | Casual | ❌ Peor |
+    | Funcional | Mejor |
+    | Secuencial | Alta |
+    | Comunicacional | Media-alta |
+    | Procedural | Media |
+    | Temporal | Media |
+    | Lógica | Baja |
+    | Casual | Peor |
 
     **Recomendado**: Funcional, secuencial o comunicacional.
 
