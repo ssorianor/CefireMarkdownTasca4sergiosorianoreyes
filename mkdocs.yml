@@ -34,6 +34,18 @@ theme:
 plugins:
   - search:
       lang: es
+  - print-site:
+      add_to_navigation: true
+      print_page_title: 'Imprimir / Descarregar PDF'
+      add_table_of_contents: true
+      toc_title: 'Taula de continguts'
+      toc_depth: 3
+      add_full_urls: false
+      enumerate_headings: false
+      enumerate_figures: false
+      add_cover_page: true
+      include_css: true
+      enabled: true
 
 markdown_extensions:
   - admonition
@@ -60,6 +72,3 @@ markdown_extensions:
 
 nav:
   - Inici: index.md
-
-extra_javascript:
-  - javascripts/pdf_button.js
