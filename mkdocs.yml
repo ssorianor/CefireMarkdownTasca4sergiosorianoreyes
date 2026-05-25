@@ -28,6 +28,7 @@ theme:
     - search.suggest
     - content.code.copy
     - content.code.annotate
+    - toc.integrate
 
 plugins:
   - search
